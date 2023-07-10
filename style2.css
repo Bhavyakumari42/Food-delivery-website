@@ -12,6 +12,7 @@
 
 body
 {
+    
     overflow-y: hidden;
     
     overflow-x: hidden;
@@ -97,11 +98,42 @@ body
     color:  rgb(44, 0, 0);
     font-weight: bold;
     font-size: 1vw;
-  
+ 
+}
+.viewmore a{
+    text-decoration: none;
+    color:  rgb(44, 0, 0);
+}
+a:visited
+{
+    text-decoration: none;
+    color:  rgb(44, 0, 0);
+}
+a:active
+{
+    text-decoration:none ;
+    color:  rgb(44, 0, 0);
+}
+a:link{
+    text-decoration: none;
+    color:  rgb(44, 0, 0);
+}
+a:hover{
+    color: maroon;
 }
 .viewmore:hover
 {
 
     background-color: burlywood;
    color: maroon;
+}
+h5{
+    margin-top: -4.2vh;
+    margin-bottom: 2.5vh;
+    font-size: 2.5vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:  rgb(44, 0, 0);
+    background-color:#e2c39a;
+    padding: 1vh;
 }

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Big+Shoulders+Display:wght@800&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Kumbh+Sans:wght@600;800&family=League+Spartan:wght@500;600;800&family=Lexend+Deca:wght@200&family=Roboto&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Big+Shoulders+Display:wght@800&family=Fasthand&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Kumbh+Sans:wght@600;800&family=League+Spartan:wght@500;600;800&family=Lexend+Deca:wght@200&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+    overflow-x: hidden;
+}
+ 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    
+    background-color: rgb(255 227 186);
+    height: 8vh;
+}
+.navbar ul 
+{
+  
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2vw;
+margin-left: 74vw;
+
+font-size: 1vw;
+ color:  rgb(44, 0, 0);;
+font-family: 'Roboto', sans-serif;
+position: relative;
+z-index:1 ;
+top:3vh;
+font-weight: bold;
+letter-spacing: .1vw;
+text-decoration: none;
+
+
+
+}
+a{
+    text-decoration: none;
+}
+ a :link
+
+{
+    display: flex;
+    flex-direction:  row;
+ color:  rgb(44, 0, 0);
+    text-decoration: none;
+
+}
+a:active
+{
+     color:  rgb(44, 0, 0);
+    text-decoration: none;
+  
+}
+a:visited
+{
+ color:  rgb(44, 0, 0);
+    text-decoration: none;
+   
+
+}
+a:hover
+{
+    color: crimson;
+    text-decoration: none;
+}
+#item1image
+{
+    background-image: url('cheesecake.jpg');
+}
+.image
+{
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 18vw;
+    height: 15.5vw;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+   
+}
+.name
+{
+ font-size: 1.2vw;
+ color:  rgb(44, 0, 0);;
+font-family: 'Roboto', sans-serif;
+position: relative;
+    top: 1vh;
+
+}
+span{
+    font-size: 1vw;
+ float: right;
+}
+#item2image
+{
+    background-image: url('gulabjamun.jpg');
+
+}
+#item3image
+{
+    background-image: url('Kaju-Katli.jpg');
+}
+.container
+{
+    display:grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw;
+  
+justify-content: space-evenly;
+margin-top: 12vh;
+gap: 4vh;
+}
+#item4image
+{
+    background-image: url('chocolate\ icecream.jpeg');
+}
+#item5image
+{
+    background-image: url('caramelpuddding.jpeg');
+}
+#item6image
+{
+    background-image: url('ladoo.jpg');
+}
+#item7image
+{
+    background-image: url('pastry.jpg');
+}
+#item8image
+{
+    background-image: url('Red\ Velvet\ Pastry.jpeg');
+}
+
+h3{
+    font-size: 3vw;
+    color:rgb(44, 0, 0); 
+    font-family: 'Fasthand', cursive;
+    position: relative;
+    top: 3.5vh;
+    left: 45vw;
+    letter-spacing: .18vw;
+}
+.add
+{
+    text-align: center;
+    border: none;
+    background-color:rgb(255 227 186);
+    font-size: 2vh;
+    padding: 1.5vh 2vh;
+    margin-top: 2.5vh;
+    color:  rgb(44, 0, 0); 
+    font-family: 'Roboto', sans-serif;
+    border-radius: 1vh;
+    font-weight: bold;
+   
+}
+.add:hover
+{
+    background-color: rgb(95, 5, 23);
+    color: rgb(255, 215, 164);
+}
