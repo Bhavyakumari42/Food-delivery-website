@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Big+Shoulders+Display:wght@800&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Kumbh+Sans:wght@600;800&family=League+Spartan:wght@500;600;800&family=Lexend+Deca:wght@200&family=Roboto&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Big+Shoulders+Display:wght@800&family=Fasthand&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Kumbh+Sans:wght@600;800&family=League+Spartan:wght@500;600;800&family=Lexend+Deca:wght@200&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  body{
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+    overflow-x: hidden;
+    /* background-image: linear-gradient( to right ,rgb(248 237 219),rgb(255 255 255),rgb(248 237 219)); */
+  
+  
+}
+ 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image
+{
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 7vw;
+    height: 7.5vw;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    background-size: contain;
+   margin-top: 2rem;
+   margin-left: 5rem;
+   
+}
+.name
+{
+ font-size: 1vw;
+ color:  rgb(44, 0, 0);;
+font-family: 'Roboto', sans-serif;
+position: relative;
+    top: 1vh;
+    left: 1vh;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .1vh;
+
+}
+#item1image
+{
+    background-image: url('YFL-Pav-Bhaji-3.webp');
+
+}
+#item2image
+{
+    background-image: url('icecream.webp');
+
+}
+#item3image
+{
+    background-image: url('thali.jpg');
+}
+.container
+{
+    display:grid;
+    grid-template-columns: 18vw 18vw 18vw ;
+  
+
+margin-top: -30rem;
+gap: 7vh;
+margin-left: 18vw;
+}
+
+.title{
+    position: relative;
+    bottom: 33rem;
+    left: 41vw;
+    font-size: 2.2vw;
+    font-family: 'Roboto', sans-serif;   
+    letter-spacing: .1vw;
+    color:  rgb(74, 2, 2);
+    font-weight: bold;
+
+
+}
+.para
+{ position: relative;
+    bottom: 32rem;
+    color:  rgb(74, 2, 2);
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;  
+    left: 42vh;
+    width: 60vw;
+    text-align: center;
+}
+header{
+    background-image: url('mirchi.png');
+    position: relative;
+    width: 12vw;
+    height: 19vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 5vh;
+    left: 4vh;
+}
+.leaves
+{
+    background-image: url('newleaves.png');
+    position: relative;
+    width: 12vw;
+    height: 19vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 50vh;
+    left: -7vh;
+}
+.title2
+{
+    position: relative;
+    top: 8rem;
+    left: 37.5vw;
+    font-size: 2.2vw;
+    font-family: 'Roboto', sans-serif;   
+    letter-spacing: .1vw;
+    color:  rgb(74, 2, 2);
+    font-weight: bold;
+}
+.container2
+{
+    display:grid;
+    grid-template-columns: 18vw 18vw 18vw ;
+  
+
+margin-top: 12rem;
+gap: 7vh;
+margin-left: 18vw;
+}
+#item4image
+{
+    background-image: url('mobile.png');
+
+}
+#item5image
+{
+    background-image: url('catering-removebg-preview.png');
+
+}
+#item6image
+{
+    background-image: url('delivery-removebg-preview.png');
+}
+.image1
+{
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 20vw;
+    height: 17.5vw;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+}
+
+.itemlogo
+{
+    background-image: linear-gradient(rgb(255 197 96 / 13%), rgba(255, 0, 0, 0));
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+.bg
+{
+    background-image: url(mirchi.png);
+    position: relative;
+    width: 16vw;
+    height: 19vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -36vh;
+    left: 15vh;
+    float: right;
+    transform: rotateY(152deg);
+}
+.bg2
+{
+    background-image: url('newleaves.png');
+    position: relative;
+    width: 16vw;
+    height: 19vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -16vh;
+    left: 45vh;
+    float: right;
+    transform: rotateY(152deg);   
+}
+.content
+{
+    font-size: 1.5vh;
+    color: rgb(44, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 2vh;
+    left: 5.2vh;
+    text-align: center;
+    width: 13vw;
+    height: 6vh;
+    word-break: break-all;
+    line-height: 1rem;
+}
+#content1
+{
+    width: 18vw;
+    left: 3.2vh;
+    font-size:1.7vh ;
+
+}
