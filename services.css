@@ -4,11 +4,11 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
   body{
-    /* overflow-y: hidden;
-    overflow-x: hidden; */
+    /* overflow-y: hidden; */ 
+    /* /* overflow-x: hidden; */
     overflow-x: hidden;
     /* background-image: linear-gradient( to right ,rgb(248 237 219),rgb(255 255 255),rgb(248 237 219)); */
-  
+  overflow-y: scroll;
   
 }
  
@@ -71,13 +71,13 @@ position: relative;
 
 margin-top: -30rem;
 gap: 7vh;
-margin-left: 18vw;
+margin-left: 19.5vw;
 }
 
 .title{
     position: relative;
     bottom: 33rem;
-    left: 41vw;
+    left: 43vw;
     font-size: 2.2vw;
     font-family: 'Roboto', sans-serif;   
     letter-spacing: .1vw;
@@ -121,7 +121,7 @@ header{
 {
     position: relative;
     top: 8rem;
-    left: 37.5vw;
+    left: 38vw;
     font-size: 2.2vw;
     font-family: 'Roboto', sans-serif;   
     letter-spacing: .1vw;
@@ -176,11 +176,11 @@ margin-left: 18vw;
     background-image: url(mirchi.png);
     position: relative;
     width: 16vw;
-    height: 19vw;
+    height: 9vw;
     background-repeat: no-repeat;
     background-size: contain;
-    top: -36vh;
-    left: 15vh;
+    top: -37vh;
+    left: -4vh;
     float: right;
     transform: rotateY(152deg);
 }
@@ -188,14 +188,14 @@ margin-left: 18vw;
 {
     background-image: url('newleaves.png');
     position: relative;
-    width: 16vw;
-    height: 19vw;
+    width: 11vw;
+    height: 11vw;
     background-repeat: no-repeat;
     background-size: contain;
-    top: -16vh;
-    left: 45vh;
+    top: -33vh;
+    left: 27vh;
     float: right;
-    transform: rotateY(152deg);   
+    transform: rotateY(333deg);   
 }
 .content
 {
@@ -217,4 +217,209 @@ margin-left: 18vw;
     left: 3.2vh;
     font-size:1.7vh ;
 
+}
+.footer{
+    /* background-image: linear-gradient(rgb(255 197 96 / 13%), rgba(255, 0, 0, 0)); */
+    display: flex;
+    flex-direction: row;
+    /* gap: 10rem; */
+    /* background-size: 100% 100%; */
+    position: relative;
+    top: 10rem;
+    height: 20rem;
+    /* background-color: rgb(248 237 219); */
+    
+}
+.icon
+{
+    background-size: contain;
+   position: relative;
+   width: 3rem;
+   height: 3rem;
+   background-repeat: no-repeat;
+   top: 10rem;
+   right: 10rem;
+}
+.heading
+{
+    color: rgb(44, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 16rem;
+    top: 7rem;
+    left: 7rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+
+}
+.firstcontainer
+{
+    display: flex;
+    flex-direction: row;
+  gap: 1rem;
+}
+#Instagram
+{
+   background-image: url('Instagram_icon.png.webp');
+ 
+}
+#facebook
+{
+    background-image: url('facebook.png');
+}
+#linkedln
+{
+    background-image: url('linkedln.png');
+}
+#twitter
+{
+    background-image: url('twitter-icon-square-270374.png');
+}
+.secondcontainer label
+{
+    position: relative;
+    top: 7rem;
+    right: 4rem;
+    display: inline-block;
+    width: 25rem;
+    font-size: 1.5rem;
+    color: rgb(44, 0, 0);
+    font-family: 'Roboto', sans-serif;
+
+}
+#email
+{
+    position: relative;
+    top: 8rem;
+    right: 4rem;
+    display: inline-block;
+    width: 14rem;
+    height: 3rem;
+    /* background: none; */
+    border: none;
+    border-radius: 0.5rem;
+    
+    box-shadow: 0.1rem 0.1rem 1rem #e0dcdc;
+    background-color: rgb(248 237 219);
+    padding-left:1rem ;
+    font-family: 'Roboto', sans-serif;
+}
+
+#button
+{
+    position: relative;
+    top: 8rem;
+    right: 2rem;
+    display: inline-block;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    /* box-shadow: 0.1rem 0.1rem 1rem white; */
+    background-color: rgb(134 134 134);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.thirdcontainer ul{
+    list-style: none;
+    position: relative;
+    top: 8rem;
+    right: -1rem;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(74 2 2 / 79%);
+    font-size: 1rem;
+    width: 7rem;
+    line-height: 2rem;
+    letter-spacing: .05rem;
+
+}
+.fourthcontainer ul{
+    
+    list-style: none;
+    position: relative;
+    top: 8rem;
+    left: 6rem;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(74 2 2 / 79%);
+    font-size: 1rem;
+    width: 7rem;
+    line-height: 2rem;
+    letter-spacing: .05rem;
+
+}
+.fifthcontainer ul{
+    list-style: none;
+    position: relative;
+    top: 8rem;
+    left: 10rem;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(74 2 2 / 79%);
+    font-size: 1rem;
+    width: 7rem;
+    line-height: 2rem;
+    letter-spacing: .05rem;
+
+}
+.heading3
+{
+    position: relative;
+    top: 7rem;
+    right: -1rem;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 0, 0);
+    font-size: 1.5rem;
+}
+.fourthcontainer div {
+    left: 6rem;
+    width: 7rem;
+}
+.fifthcontainer div {
+    left: 10rem;
+    width: 7rem
+}
+.lastdiv
+{
+    background-image: url('footer.jpeg');
+}
+.gif
+{
+    background-image: url(gif.gif);
+    position: relative;
+    width: 23rem;
+    height: 20rem;
+    background-size: contain;
+    top: 5.9rem;
+    background-repeat: no-repeat;
+    animation: mymove 15s;
+    animation-iteration-count: infinite;
+   ;
+   
+}
+@keyframes mymove {
+    from
+    {
+       left: -10rem;
+    }
+   to
+    {
+        left: 90rem;
+    }
+    
+}
+.contactus{
+    position: relative;
+    top: 12rem;
+    font-size: 2.2vw;
+    font-family: 'Roboto', sans-serif;   
+    letter-spacing: .1vw;
+    color:  rgb(74, 2, 2);
+    font-weight: bold;  
+    left: 46vw;
 }
